@@ -1,29 +1,48 @@
-# Create React Express App
+# 21 - React Google Book Search
 
-## About This Boilerplate
+## Table of Contents
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+* [Description](#description)
+* [Usage](#usage)
+* [Technologies Used](#Technologies)
+* [Questions](#questions)
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Description 
 
-## Starting the app locally
+An application created using the MERN stack boiler plate. This application allows searches using the Google Books API. Once searched, you will be able to save the book to a list but also allows the removal of books from the list.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+View the deployed application at: https://googlebooks-21464.herokuapp.com/
 
-```
-npm install
-```
+## Usage 
 
-This should install node modules within the server and the client folder.
+Users will initially start on the Home page where they can initiate a search for any book. Once submitting your query a list will render from Google's Book library API. Each book listing will provide you a link to further research the book or to Save it to a list. This can be done multiple times on different books within the API's list. Switching over to the Saved Books will allow you to review Saved items and could also remove them from the list by clicking delete.
 
-After both installations complete, run the following command in your terminal:
+## Technologies
 
-```
-npm start
-```
+* React JS
+* MongoDB
+* Mongoose
+* Express JS
+* Node
+* Axios
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
+## Questions
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+* GitHub Repo https://github.com/robertsantos-dfw/21-google-book-search
+
+You can reach me by emailing me at robertsantos.dfw@gmail.com with any additional questions.
+
+## Screenshots
+
+* Getting Started
+![Getting Started](./assets/screenshot01.png)
+
+* Answer Questions
+![Answer Questions](./assets/screenshot02.png)
+
+* Preview ReadMe File
+![Preview ReadMe File](./assets/screenshot03.png)
+
+---
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
